@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 512
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: c5ea480feca7c4b21a6ec660584ce9db, type: 3}
+    - {fileID: 102900000, guid: 16e609abe04c04fcdb8d2f4a9a1b551d, type: 3}
+    - {fileID: 102900000, guid: 5e0b7eb6860d440c3a46731615bcea21, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: e211d6a23948645b1a93faba9e88d16f, type: 3}
+  - {fileID: 21300000, guid: 970ec43303e744663961fb2ec14cbae3, type: 3}
+  - {fileID: 21300000, guid: 2df4d0d4a65b74114a533fd99676618e, type: 3}
+  - {fileID: 21300000, guid: e7018ef4cd75c4077aa4da56e6044ef8, type: 3}
+  - {fileID: 21300000, guid: 4ec56245d5a1c4e228dfc33a25b371bf, type: 3}
+  - {fileID: 21300000, guid: f3ccd4854c1e24a37b5d3e71818de83c, type: 3}
+  - {fileID: 21300000, guid: d1c2b7a677d0c47beac93221a809ed3d, type: 3}
+  - {fileID: 21300000, guid: b555b48744a8446028328330a7a894aa, type: 3}
+  - {fileID: 21300000, guid: ebe2ddf8dd09f4262bd0a84d0ef2fc91, type: 3}
+  - {fileID: 21300000, guid: 2549e71a1495546a2b36a4f9afc61c86, type: 3}
+  - {fileID: 21300000, guid: 5f2a525b3eb604f9299a67b4617cd7ad, type: 3}
+  - {fileID: 21300000, guid: c462077bd35094cd4a522aeb65198065, type: 3}
+  - {fileID: 21300000, guid: 6305a8cb1645a475fbaa5104969426d7, type: 3}
+  - {fileID: 21300000, guid: c226a34d44584483d80d914c3780499e, type: 3}
+  - {fileID: 21300000, guid: b9295c6d6297d46748abdd2ee05a8d8a, type: 3}
+  - {fileID: 21300000, guid: 64da56ed5b2f1418eb778b50c50304b9, type: 3}
+  - {fileID: 21300000, guid: 90a6820ebd13c4bf58742b8a88ad5a80, type: 3}
+  - {fileID: 21300000, guid: eb0e586ebcf254d25adf9532b3b99439, type: 3}
+  - {fileID: 21300000, guid: 35f04c1f4859b49b4b99df0ecf4b18c3, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Finger
+  - LaserHead
+  - Mute
+  - Settings
+  - Pinch_Finger_2
+  - Pinch_Finger_1
+  - resurrection
+  - No
+  - Re
+  - Home
+  - Resume
+  - Back
+  - SAW
+  - X
+  - Sound_0
+  - Pinch_hand
+  - PhoneAndHand
+  - Pause
+  - Sound_1
+  m_RenderDataMap: {}
+  m_Tag: Atlas
+  m_IsVariant: 0
