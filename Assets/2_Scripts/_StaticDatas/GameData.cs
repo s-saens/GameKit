@@ -14,16 +14,6 @@ public static class GameData
     public static PrefsData<float> camOrthSize = new PrefsData<float>(KeyData.CAM_ORTH_SIZE, 10);
     public static PrefsData<int> remainReviveChance = new PrefsData<int>(KeyData.REMAIN_RESURRECTION_CHANCE, 1);
 
-    public static Vector2Int mazeSize {
-        get {
-            int f = Last.floor.value;
-            f = (f-1) % 5 + 1 + (f-1)/5;
-            if(f <= 0) return new Vector2Int(3, 3); 
-            int s = f + 4;
-            return new Vector2Int(s/2 + s%2, (s+1)/2 + (s+1)%2);
-        }
-    }
-
     public const float camOrthMin = 10;
     public static float camOrthMax
     {
@@ -42,7 +32,6 @@ public static class GameData
 
     public static class Last
     {
-        public static PrefsData<Maze> maze = new PrefsData<Maze>(KeyData.LAST_MAZE);
         public static PrefsData<Vector3> position = new PrefsData<Vector3>(KeyData.LAST_POSITION);
         public static PrefsData<int> floor = new PrefsData<int>(KeyData.LAST_FLOOR, 1);
     }
@@ -61,7 +50,6 @@ public static class GameData
 
     public static class Temporary
     {
-        public static Maze lastMaze;
         public static Vector3 lastPosition;
         public static int lastFloor;
     }
